@@ -1,0 +1,13 @@
+.container {
+    background-color: rgba(173, 216, 237, 0.7);
+    background-image: url('../IMG/Music-rafiki\ \(1\).svg');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-attachment: fixed;
+    background-position: 90% center;
+}
+.container span h2{
+    color: #1374bf;
+ 
+   font-family: cursive;
+}
