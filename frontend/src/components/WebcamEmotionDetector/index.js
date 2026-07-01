@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import * as faceapi from "face-api.js";
+import * as faceapi from "import * as faceapi";
 import LOGO from "../../IMG/face-recognition.png";
 import PlaylistComponent from "../../Services/FetchPlaylist";
 import { useSelector } from "react-redux";
@@ -36,7 +36,7 @@ const WebcamEmotionDetector = () => {
     loadModels();
   }, []);
 
-  // Load face-api.js models
+  // Load import * as faceapi models
   const loadModels = async () => {
     await faceapi.nets.tinyFaceDetector.loadFromUri(
       "/models/tiny_face_detector/"
