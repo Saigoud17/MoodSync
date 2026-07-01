@@ -1,0 +1,107 @@
+.Auth{
+    background-color: #bcd0d6;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; /* Spaces out items */
+
+}
+.para h1{
+    color: #175c90;
+    letter-spacing: 1.5px;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    padding-top: 0px;
+    background-image: url('../../IMG/Login-amico.svg'),url('../../IMG/Playing\ Music-pana.svg');
+    background-size: 40%,40%; /* Reduces the image to 50% of its original size */
+    background-position: 101% center,20% center; /* Moves image slightly to the left */
+    background-repeat: no-repeat,no-repeat;
+}
+
+.para h1{
+    font-size: 40px;
+}
+.para h1{
+    position: relative;
+    top: -140px;
+    left: -90px;
+}
+.para p{
+    position: absolute;
+    left: 100px;
+    
+    top:260px ;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
+ .googlelogin{
+    display: flex;
+}
+.sportifylogin{
+    display: flex;
+}
+.googlelogin img{
+    width: 40px;
+    height: 40px;
+}
+
+.sportifylogin img{
+    width: 40px;
+    height: 40px;
+} 
+/* .logins{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.logins{
+    position: relative;
+    right: 50px;
+    border: solid black;
+    width: 500px;
+    
+} */
+
+.logins{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+
+}
+
+.logins .log{
+    padding: 10px;
+    background-color: #175c90;
+    border-radius: 20px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    box-shadow: 4px 4px 10px rgb(43, 164, 216); /* X, Y, Blur, Color */
+}
+.logins .log{
+    display: flex;
+    align-items: center;
+}
+.logins .log p{
+    font-weight: bolder;
+    margin-left: 13px;
+    color: aliceblue;
+}
+
+.logins .log:hover{
+    cursor: pointer;
+    background-color: #104369;
+    transition: 0.4s;
+ 
+}
+
+@media (max-width:530px) {
+    .para h1{
+        display: none;
+    }
+}

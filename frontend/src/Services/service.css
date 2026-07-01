@@ -1,0 +1,49 @@
+.container {
+    background-color: rgba(173, 216, 237, 0.7);
+    background-image: url('../IMG/Music-rafiki\ \(1\).svg');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-attachment: fixed;
+    background-position: 90% center;
+}
+.container span .moodhead1{
+    color: #1374bf;
+ 
+   font-family: cursive;
+}
+.angryqoute{
+    display: flex;
+    justify-content: center;
+}
+
+
+.dz-top button {
+  background-color: #004466;
+  color: #fff;
+  border: none;
+  height: fit-content;
+  padding: 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 20px;
+  transition: all 0.6s ease;
+}
+
+.dz-top button:hover {
+  background-color: #006688;
+  transform: scale(1.04);
+}
+.dz-top .moodhead1{
+    font-size: small;
+}
+
+.angryqoute{
+    padding: 20px;
+    font-size: x-large;
+    color: #5e3084;
+}
+.dz-top{
+    display: flex;
+    justify-content: space-between;
+}

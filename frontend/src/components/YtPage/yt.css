@@ -1,0 +1,111 @@
+.ytcontainer {
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgba(173, 216, 237, 0.7);
+  min-height: 100vh;
+}
+
+.ytcontainer h2 {
+  text-align: center;
+  color: #004466;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.ytcontainer .ty-top button {
+  background-color: #004466;
+  color: #fff;
+  border: none;
+  height: fit-content;
+  padding: 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ytcontainer .ty-top button:hover {
+  background-color: #006688;
+}
+
+.ytcontainer .singlePlaylist {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.ytcontainer .ytVideoBox {
+  list-style: none;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.ytcontainer .ytVideoBox:hover {
+  transform: scale(1.03);
+}
+
+.ytcontainer .ytVideoBox iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.ytTitle {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  background-color: #f4faff;
+}
+
+@media screen and (max-width: 768px) {
+  .ytcontainer .singlePlaylist {
+    grid-template-columns: 1fr;
+  }
+
+  .ytcontainer .ytVideoBox iframe {
+    height: 180px;
+  }
+}
+.ytcontainer .videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  list-style-type: none; /* Removes bullet points if you're using <li> */
+}
+.ytcontainer .ty-top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.ytcontainer .mood-highlight {
+  color: #b6004f;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.ytcontainer .back-button {
+  padding: 0.6rem 1rem;
+  background-color: #023047;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ytcontainer .back-button:hover {
+  background-color: #035e7b;
+}

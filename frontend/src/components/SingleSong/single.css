@@ -1,0 +1,76 @@
+/* SinglePlaylist.css */
+/* Making the background semi-transparent */
+.single-playlist-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    background-color: rgba(173, 216, 237, 0.7); /* White background with 70% opacity */
+    transition: all 0.3s ease;
+  }
+  
+  
+  .single-playlist-container:hover {
+    background-color:  rgba(103, 179, 216, 0.7);
+  }
+  
+  .playlist-info {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .playlist-info img {
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .playlist-info img:hover {
+    transform: scale(1.05);
+  }
+  
+  .playlist-details {
+    margin-left: 15px;
+  }
+  
+  .playlist-details h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 250px;
+  }
+  
+  .playlist-details a {
+    text-decoration: none;
+  }
+  
+  .playlist-details a:hover h2 {
+    color: #007bff;
+  }
+  
+  .player-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .player-controls svg {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .player-controls svg:hover {
+    transform: scale(1.2);
+  }
+  
+  .iframe-container {
+    margin-top: 15px;
+  }
+
+  
