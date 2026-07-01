@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import * as faceapi from "import * as faceapi";
+import * as faceapi from "face-api.js";
 import LOGO from "../../IMG/face-recognition.png";
 import PlaylistComponent from "../../Services/FetchPlaylist";
 import { useSelector } from "react-redux";
@@ -145,8 +145,8 @@ const WebcamEmotionDetector = () => {
               {emotion
                 ? emotion.toUpperCase()
                 : isDetecting
-                ? "Detecting..."
-                : "Click to Start"}
+                  ? "Detecting..."
+                  : "Click to Start"}
             </h3>
           </div>
         </div>
